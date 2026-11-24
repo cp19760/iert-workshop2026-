@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": "user-a-1111",
+      "email": "usera@example.com",
+      "password": "Password123!",
+      "name": "User A",
+      "role": "user",
+      "credits": 0
+    },
+    {
+      "id": "user-b-2222",
+      "email": "userb@example.com",
+      "password": "Password123!",
+      "name": "User B",
+      "role": "user",
+      "credits": 0
+    },
+    {
+      "id": "admin-3333",
+      "email": "admin@example.com",
+      "password": "Admin123!",
+      "name": "Admin User",
+      "role": "admin",
+      "credits": 1000
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-101",
+      "user_id": "user-a-1111",
+      "user_email": "usera@example.com",
+      "item": "FlowVault Pro Starter Kit",
+      "amount": 49.99,
+      "status": "delivered",
+      "created_at": "2026-01-10T14:22:00Z"
+    },
+    {
+      "id": "ORD-102",
+      "user_id": "user-a-1111",
+      "user_email": "usera@example.com",
+      "item": "Enterprise Vector Indexer",
+      "amount": 199,
+      "status": "processing",
+      "created_at": "2026-01-15T09:15:00Z"
+    },
+    {
+      "id": "ORD-201",
+      "user_id": "user-b-2222",
+      "user_email": "userb@example.com",
+      "item": "Automated Payroll Engine",
+      "amount": 850,
+      "status": "completed",
+      "created_at": "2026-01-12T11:45:00Z"
+    },
+    {
+      "id": "ORD-202",
+      "user_id": "user-b-2222",
+      "user_email": "userb@example.com",
+      "item": "Confidential B2B License",
+      "amount": 1200,
+      "status": "active",
+      "created_at": "2026-01-18T16:30:00Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-1",
+      "user_id": "user-a-1111",
+      "title": "Project Roadmap",
+      "content": "User A project roadmap",
+      "is_private": true
+    },
+    {
+      "id": "note-2",
+      "user_id": "user-b-2222",
+      "title": "Payout Secret",
+      "content": "CONFIDENTIAL: User B payout secret PIN 9482",
+      "is_private": true
+    }
+  ],
+  "comments": [
+    {
+      "id": "comm-1",
+      "author_name": "FlowVault Team",
+      "body": "Welcome to FlowVault community discussion. Leave your feedback below!",
+      "created_at": "2026-01-01T10:00:00.000Z"
+    }
+  ],
+  "coupons": [
+    {
+      "code": "PRO50",
+      "discount_credits": 500,
+      "max_uses": 1,
+      "used_count": 0,
+      "redeemed_by": []
+    }
+  ],
+  "sessions": []
+}
